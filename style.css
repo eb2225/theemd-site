@@ -17,6 +17,7 @@
   --dl-color-gray-black80: #000000cc;
   --dl-size-size-maxwidth: 1328px;
   --dl-radius-radius-round: 50%;
+  --dl-color-grays-white100: #FFFFFF;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
@@ -28,6 +29,7 @@
   --dl-space-space-threeunits: 48px;
   --dl-color-pallet-pale-orange: #f9ad46ff;
   --dl-color-pallet-paler-orange: #ffbc62ff;
+  --dl-size-size-maxwidthdesktop: 1600;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
@@ -144,6 +146,15 @@
   font-family: "Lexend";
   font-weight: 500;
   line-height: 1.2;
+  text-transform: none;
+  text-decoration: none;
+}
+.Content-Light {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 1.75;
   text-transform: none;
   text-decoration: none;
 }
