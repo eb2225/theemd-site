@@ -197,69 +197,6 @@
   max-width: 450px;
   align-self: center;
 }
-.gantt-charts-gantt-chart {
-  width: 100%;
-  display: flex;
-  align-items: stretch;
-  padding-top: 0px;
-  justify-content: center;
-}
-.gantt-charts-left {
-  flex: 1;
-  display: flex;
-  align-self: stretch;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-500);
-}
-.gantt-charts-content {
-  margin: 0 0 40px 0;
-  display: flex;
-  position: relative;
-  box-sizing: border-box;
-  margin-top: 0 0 40px 0;
-  align-items: center;
-  flex-shrink: 1;
-  margin-left: 0 0 40px 0;
-  border-color: transparent;
-  margin-right: 0 0 40px 0;
-  flex-direction: column;
-}
-.gantt-charts-text01 {
-  color: var(--dl-color-gray-white);
-  height: auto;
-  margin: 0 0 16px 0;
-  align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-stretch: normal;
-}
-.gantt-charts-text02 {
-  color: var(--dl-color-gray-white);
-  width: 267px;
-  height: auto;
-  font-size: 16px;
-  align-self: auto;
-  font-style: normal;
-  text-align: center;
-  font-family: "Jost";
-  font-weight: 400px;
-  line-height: 24px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.gantt-charts-text03 {
-  font-family: "Lexend";
-}
-.gantt-charts-image {
-  width: 70%;
-  position: relative;
-  box-sizing: border-box;
-  object-fit: cover;
-  border-color: transparent;
-}
 .gantt-charts-gantt-charts {
   flex: 0 0 auto;
   width: 100%;
@@ -286,7 +223,7 @@
   align-self: center;
   align-items: center;
 }
-.gantt-charts-left1 {
+.gantt-charts-left {
   flex: 0 0 auto;
   width: 50%;
   height: 100%;
@@ -325,11 +262,41 @@
 .gantt-charts-li3 {
   text-decoration: none;
 }
+.gantt-charts-image-section-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.gantt-charts-text-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.gantt-charts-image-container {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  padding-top: 0px;
+  justify-content: center;
+}
+.gantt-charts-image {
+  width: 70%;
+  position: relative;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-color: transparent;
+}
 @media(max-width: 1200px) {
   .gantt-charts-container1 {
     width: 100%;
   }
-  .gantt-charts-left1 {
+  .gantt-charts-left {
     width: 100%;
   }
 }
@@ -353,21 +320,9 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .gantt-charts-gantt-chart {
+  .gantt-charts-image-container {
     padding-top: var(--dl-space-space-twounits);
     flex-direction: column;
-  }
-  .gantt-charts-left {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-  .gantt-charts-content {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .gantt-charts-text02 {
-    width: auto;
   }
   .gantt-charts-image {
     width: 100%;
@@ -382,8 +337,5 @@
   }
   .gantt-charts-title-container {
     margin-bottom: var(--dl-space-space-unit);
-  }
-  .gantt-charts-left {
-    width: auto;
   }
 }
