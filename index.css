@@ -182,9 +182,9 @@
   justify-content: center;
 }
 .home-image {
-  width: auto;
+  width: 100%;
   position: relative;
-  max-width: 579px;
+  max-width: auto;
   box-sizing: border-box;
   max-height: 579px;
   object-fit: cover;
@@ -255,6 +255,13 @@
 .home-li {
   text-decoration: none;
 }
+.home-text02 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-text02:hover {
+  color: var(--dl-color-gray-500);
+}
 .home-requirements {
   flex: 0 0 auto;
   width: 100%;
@@ -275,6 +282,13 @@
 }
 .home-li1 {
   text-decoration: none;
+}
+.home-text04 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-text04:hover {
+  color: var(--dl-color-gray-500);
 }
 .home-architecture {
   flex: 0 0 auto;
@@ -297,6 +311,13 @@
 .home-li2 {
   text-decoration: none;
 }
+.home-text06 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-text06:hover {
+  color: var(--dl-color-gray-500);
+}
 .home-method-selection-and-planning {
   flex: 0 0 auto;
   width: 100%;
@@ -314,6 +335,13 @@
 }
 .home-li3 {
   text-decoration: none;
+}
+.home-text08 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-text08:hover {
+  color: var(--dl-color-gray-500);
 }
 .home-risk-assessment {
   flex: 0 0 auto;
@@ -338,6 +366,13 @@
   align-self: center;
   text-decoration: none;
 }
+.home-text10 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-text10:hover {
+  color: var(--dl-color-gray-500);
+}
 .home-implementation {
   flex: 0 0 auto;
   width: 100%;
@@ -358,14 +393,35 @@
   margin-bottom: 2px;
   text-decoration: none;
 }
+.home-text14 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-text14:hover {
+  color: var(--dl-color-gray-500);
+}
 .home-li6 {
   margin-top: 2px;
   margin-bottom: 2px;
   text-decoration: none;
 }
+.home-text17 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-text17:hover {
+  color: var(--dl-color-gray-500);
+}
 .home-li7 {
   margin-top: 2px;
   margin-bottom: 2px;
+}
+.home-link7 {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.home-link7:hover {
+  color: var(--dl-color-gray-500);
 }
 .home-gantt-chart {
   flex: 0 0 auto;
@@ -598,6 +654,7 @@
   justify-content: space-between;
 }
 .home-container1 {
+  width: 60%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: flex-start;
@@ -617,6 +674,18 @@
 .home-text41 {
   color: var(--dl-color-gray-black50);
   margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.home-image-container1 {
+  flex: 0 0 auto;
+  width: 40%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.home-image2 {
+  width: 25%;
+  object-fit: cover;
 }
 @media(max-width: 1200px) {
   .home-cards-container {
